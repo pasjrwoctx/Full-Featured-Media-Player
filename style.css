@@ -1,0 +1,67 @@
+/* Full Featured Media Player */
+
+.full-featured-media-player {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .full-featured-media-player .playlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .full-featured-media-player .playlist li {
+    margin: 0 0 10px;
+  }
+  
+  .full-featured-media-player .playlist li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .full-featured-media-player .playlist li a.active {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .full-featured-media-player .player {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .full-featured-media-player .player .controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .full-featured-media-player .player .controls .play {
+    float: left;
+  }
+  
+  .full-featured-media-player .player .controls .pause {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .full-featured-media-player .player .controls .stop {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .full-featured-media-player .player .controls .progress {
+    float: left;
+    width: 100%;
+  }
+  
+  .full-featured-media-player .player .controls .waveform {
+    float: right;
+  }
+  
